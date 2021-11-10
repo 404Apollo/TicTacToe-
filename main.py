@@ -3,6 +3,7 @@ import sys
 t = tl.Turtle()
 screen = tl.Screen()
 #yooooo hu
+#yo?
 clicked_box,plays = 0,0
 player_1_turn, player_2_turn = True,False
 xando = [" "," "," ",
@@ -53,6 +54,8 @@ def check_for_winner(box):
 
     if plays == 9:
       print("Tie")
+      player_1_turn = False
+      player_2_turn = False
       sys.exit()
 
 
