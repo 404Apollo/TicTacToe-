@@ -2,7 +2,7 @@ import turtle as tl
 import sys
 t = tl.Turtle()
 screen = tl.Screen()
-
+#yooooo hu
 clicked_box,plays = 0,0
 player_1_turn, player_2_turn = True,False
 xando = [" "," "," ",
